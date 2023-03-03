@@ -1,0 +1,13 @@
+npm init
+npm install /Kör en gång för att testa koden på annan device
+
+npm create vite@latest . (startar nytt vite project i root, pga punkten i slutet. kompremerar projectet och gör allt snabbare)
+npm install
+npm run dev (startar live server i webbläsaren)
+
+npm install -D tailwindcss postcss autoprefixer (installerar 3 packages som behövs)
+npx tailwindcss init -p (skapar 2 config filer som du behöver)
+
+deploya eller fixa projected. Delita node module mappen, dist mappen och package-lock.json och kör dessa
+npm install
+npm run build

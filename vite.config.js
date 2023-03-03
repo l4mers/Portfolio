@@ -11,7 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         homePage: resolve(__dirname, 'src/index.html'),
-       // contactPage: resolve(__dirname, 'path'),
+        contactPage: resolve(__dirname, 'src/contact.html'),
+        portfolioPage: resolve(__dirname, 'src/portfolio.html'),
       },
     },
     outDir: '../dist',
